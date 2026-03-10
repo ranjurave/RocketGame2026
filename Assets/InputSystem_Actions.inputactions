@@ -88,9 +88,9 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "RocketRotate",
+                    "name": "RotateRocket",
                     "type": "Button",
-                    "id": "646c2824-ffe4-4f6b-9e26-550a0239c18e",
+                    "id": "ea509a0e-685a-4b4b-9805-a5db18fff776",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -485,34 +485,56 @@
                 },
                 {
                     "name": "1D Axis",
-                    "id": "4afc383f-1137-4424-88c3-f79c34eeb2e2",
+                    "id": "aa04cf83-b594-445e-8831-f0dd1353ba8e",
                     "path": "1DAxis",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "RocketRotate",
+                    "action": "RotateRocket",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "negative",
-                    "id": "fb60d231-2a64-46c2-a438-b2afacc07b5d",
+                    "id": "d141a402-bfa7-4767-8d04-a7fdb3b8fe97",
                     "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "RocketRotate",
+                    "action": "RotateRocket",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "negative",
+                    "id": "1374edc3-480d-4487-b105-a526e0ea4df8",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateRocket",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
                     "name": "positive",
-                    "id": "733ebb4c-e3eb-49e6-9be0-4969cad04147",
+                    "id": "c0b87dd5-dfcc-4a7b-bd0b-d8671bf1ff8c",
                     "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "RocketRotate",
+                    "action": "RotateRocket",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "39e0c66b-cd8a-4f21-9d05-3ea1857f525d",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateRocket",
                     "isComposite": false,
                     "isPartOfComposite": true
                 }
